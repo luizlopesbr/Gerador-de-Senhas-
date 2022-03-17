@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerador de Senhas</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Gerador de Senhas</h1>
+    </header>
+    <article>
+        <div class="container">
+            <p><div id="outSenha">*************</div></p>
+            <p>Comprimento da senha:<input type="number" min="4" max="15" id="inComprimento"></p>
+            <p><input type="checkbox" class="chx" name="chkTipoCaractere" id="chkMai">Letras maiúsculas (A-Z)</p>
+            <p><input type="checkbox" class="chx" name="chkTipoCaractere" id="chkMin">Letras minúsculas (a-z)</p>
+            <p><input type="checkbox" class="chx" name="chkTipoCaractere" id="chkDigi" checked>Dígitos(0-9)</p>
+            <p><input type="checkbox" class="chx" name="chkTipoCaractere" id="chkCaraEspeciais">!@#$%&*()_+-=:;.,</p>
+            <p><input type="button" value="Gerar Senha" id="btGerar"></p>
+        </div>
+
+    </article>
+    <footer>
+        <div class="tde1">
+            <strong>TDE 1</strong> - Disciplina Back-End: Fazer um curso de <strong>Git/GitHub</strong>, em seguida, versionar um projeto no Git e
+            hospedar no GitHub.
+        </div>
+
+    </footer>
+
+
+
+    <script src="js/acao.js"></script>
+</body>
+
+</html>
